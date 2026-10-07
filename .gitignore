@@ -1,0 +1,11 @@
+# Ocultar contraseñas
+.env
+
+# Ocultar entornos virtuales de Python
+env/
+backend/env/
+
+# Ocultar archivos temporales de Python
+__pycache__/
+*.pyc
+
