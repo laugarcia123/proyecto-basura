@@ -63,7 +63,7 @@ export default function ClasificadorVisual({ onOpenModal, triggerCapture, onResu
         formData.append("file", blob, "captura_basura.jpg");
         
         try {
-          const respuesta = await fetch("http://127.0.0.1:8000/api/clasificar-imagen", {
+          const respuesta = await fetch("http://localhost:8000/api/clasificar-imagen", {
             method: "POST",
             body: formData,
           });

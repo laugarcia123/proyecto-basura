@@ -17,7 +17,7 @@ function App() {
   
   const { textoEscuchado, isListening, iniciarEscucha } = useSpeechRecognition("es-CO");
 
-  const API_URL = "http://127.0.0.1:8000/api/clasificar";
+  const API_URL = "http://localhost:8000/api/clasificar";
 
   const enviarAlBackend = async (texto) => {
     try {
